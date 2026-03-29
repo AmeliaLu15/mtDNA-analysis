@@ -9,10 +9,10 @@ Scripts used in: Mitochondrial DNA damage elicits pro-survival PINK1 transcripti
 - Data visualization: GraphPad Prism v10.0
 
 ## Files
-- `QC_deletion.R` — Quality control for mtDNA deletion data
+- `Code/mtDNA_deletion_QC.R` — Quality control for mtDNA deletion data
 - `QC_pointmutation.R` — Quality control for point mutation data
 - `prism_files/` — GraphPad Prism project files (.pzfx)
 
 ## Software Requirements
 - R version 4.2.1
-- dplyr,
+- dplyr,readr
