@@ -1,8 +1,4 @@
 # mtDNA-analysis
-Scripts for mtDNA deletion and point mutation analysis
-
-# mtDNA Analysis Scripts
-
 Scripts used in: Mitochondrial DNA damage elicits pro-survival PINK1 transcriptional upregulation in degenerating pedunculopontine-cholinergic neurons during Parkinsons's disease
 
 ## Analysis Overview
