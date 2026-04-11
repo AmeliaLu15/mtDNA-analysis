@@ -183,17 +183,3 @@ df_final <- df_HL %>%
 
 write_csv(df_final, file.path(output_dir, "final_QC.csv"))
 message("  Saved: final_QC.csv  (n = ", nrow(df_final), ")")
-
-
-# --- 13. SUMMARY -------------------------------------------------------------
-
-message("\n=== QC SUMMARY ===")
-message("Raw deletions loaded:          ", nrow(df))
-message("After BLAST filter:            ", nrow(df_BLAST))
-message("After patient matching:        ", nrow(df_BLAST))
-message("After fragments filter:        ", nrow(df_MF))
-message("After contamination filter:    ", nrow(df_contamination))
-message("After heteroplasmy filter:     ", nrow(df_HL))
-message("Final dataset:                 ", nrow(df_final))
-message("\nAll output files saved to: ", output_dir)
-message("QC complete.")
