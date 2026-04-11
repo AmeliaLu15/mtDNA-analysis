@@ -6,13 +6,15 @@ Scripts used in: Mitochondrial DNA damage elicits pro-survival PINK1 transcripti
 - mtDNA point mutation detection: mtDNA-Server  
 - Quality control: R scripts (this repository)
 - Secondary structure prediction: UNAFold, SeqFold
-- Data visualization: GraphPad Prism v10.0
+- SeqFold get sequence scripts : Python scripts
 
 ## Files
 - `Code/mtDNA_deletion_QC.R` — Quality control for mtDNA deletion data
-- `QC_pointmutation.R` — Quality control for point mutation data
-- `prism_files/` — GraphPad Prism project files (.pzfx)
+- `Code/mtDNA_PointMutation_QC.R` — Quality control for point mutation data
+- `Code/SeqFold_GetSequence.py`
 
 ## Software Requirements
 - R version 4.2.1
-- dplyr,readr
+- R package: dplyr,readr
+- Python version 3.12.1
+- Python package: pandas
