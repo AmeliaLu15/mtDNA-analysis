@@ -9,7 +9,7 @@
 #   - eKLIPse output CSV (deletion calls)
 #   - Patients metadata CSV
 #
-# Output files (saved to output_dir):
+# Output files:
 #   - df_all.csv              : Raw data after formatting
 #   - BLAST_QC.csv            : After BLAST filter
 #   - Patients.csv            : Cleaned patient metadata
@@ -44,16 +44,14 @@ library(readr)
 #   ├── data/
 #   │   ├── eKLIPse_deletions.csv
 #   │   └── Patients.csv
-#   ├── output/          ← results will be saved here
 #   └── scripts/
 #       └── mtDNA_deletion_QC.R   ← this script
 
 eklipse_file  <- "data/eKLIPse_deletions.csv"   # eKLIPse output
 patients_file <- "data/Patients.csv"             # Patient metadata
-output_dir    <- "output/"                       # Where to save results
 
 
-# --- 3. QC THRESHOLDS (EDIT IF NEEDED) ---------------------------------------
+# --- 3. QC THRESHOLDS ---------------------------------------
 
 blast_min        <- 3      # Minimum BLAST support for both 5' and 3' breakpoints
 contamination_max <- 0.1   # Maximum contamination level allowed
