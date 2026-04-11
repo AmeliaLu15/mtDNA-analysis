@@ -1,0 +1,8 @@
+"Sample"	"Contamination Status"	"Contamination Level"	"Distance"	"Sample Coverage"
+"61.merged.sorted.bam"	"NO"	"ND"	"0"	"95400"
+"62.merged.sorted.bam"	"YES"	"0.021"	"7"	"105056"
+"63.merged.sorted.bam"	"NO"	"ND"	"0"	"88315"
+"64.merged.sorted.bam"	"NO"	"ND"	"10"	"92965"
+"65.merged.sorted.bam"	"YES"	"0.045"	"14"	"75289"
+"66.merged.sorted.bam"	"NO"	"ND"	"0"	"111585"
+"68.merged.sorted.bam"	"NO"	"ND"	"0"	"83055"
